@@ -1,0 +1,36 @@
+baseURL = "https://shmam.github.io/"
+languageCode = "en-us"
+title = "sam crochet"
+theme="archie"
+copyright = ""
+
+[params]
+	mode="auto"
+	featherIconsCDN=true
+	subtitle = "I write software ⚙️💾 for money, listen to music 🎧📊 and play outside 🌏🏔 for fun."
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/shmam"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/shmam_"
+
+[[menu.main]]
+name = "all posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "photos"
+url = "/photos"
+weight = 3
